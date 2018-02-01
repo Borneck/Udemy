@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto:400,700,700i,900i');
+
+        body {
+            background-color: #91AA9d;
+            color: #193441;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9em;
+        }
+        #container {
+            width: 480px;
+            margin: 10px auto;
+            background-color: #D1DBBD;
+            padding: 5px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px; 
+        }
+        h1 {
+            font-family: 'Amatic SC', cursive;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 1.4em;
+            margin: 25px 0 8px 0;
+        }
+        h3 {
+            font-family: 'Amatic SC', cursive;
+            font-size: 1.5em;
+            letter-spacing: 1px
+        } 
+        .eingabe {
+            padding-right: 10px;
+        }
+        input[type="text"]{
+            background-color: #FCFFF5;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            background-color: #3E606F;
+            border-radius: 5px;
+            color: #FCFFF5;
+            padding: 8px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: right;
+            font-size: 0.8em;
+            font-family: Arial, Helvetica, sans-serif;
+        }

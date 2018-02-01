@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Herausvorderung JavaScript</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html"; charset="uft-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="apps.js"></script>
+
+    </head>
+    <body>
+        <div id="container">
+            <header>
+               <h1>Herausvordeung - Javascript Quiz</h1>
+               <h3>Der Webdev Grundlagen Test</h3>
+            </header>
+            <section>
+                <form>
+                    <label class="eingabe">Bitte geben sie ihren Name ein:</label>
+                    <input type="text" name="name">
+                    <div id="ergebnis"></div>
+                </form>
+                <form name="quizText" onsubmit="return gibAntwort()">
+                    <h2>1. Wofür steht das H1 Tag?</h2>
+                    <input type="radio" name="frage1" id="f1a" value="a">a. große Überschrift<br>
+                    <input type="radio" name="frage1" id="f1b" value="b">b. fett gedruckt<br>
+                    <input type="radio" name="frage1" id="f1c" value="c">c. durchgestrichen<br>
+                    <input type="radio" name="frage1" id="f1d" value="d">d. kleine Überschrift<br>
+
+                    <h2>2. Wofür steht CSS?</h2>
+                    <input type="radio" name="frage2" id="f2a" value="a">a. Case sensitive Stuff<br>
+                    <input type="radio" name="frage2" id="f2b" value="b">b. Cereals Sweet Sugar<br>
+                    <input type="radio" name="frage2" id="f2c" value="c">c. Cascading Style Sheet<br>
+                    <input type="radio" name="frage2" id="f2d" value="d">d. Customer Service Support<br>
+
+                    <h2>Wie verwendet man Hinweis in JS?</h2>
+                    <input type="radio" name="frage3" id="f3a" value="a">a. alert("Hinweis");<br>
+                    <input type="radio" name="frage3" id="f3b" value="b">b. popup("Hinweis");<br>
+                    <input type="radio" name="frage3" id="f3c" value="c">c. document.write("Hinweis");<br>
+
+                    <h2>Javascript ist eine Scriptsprache</h2>
+                    <input type="radio" name="frage4" id="f4a" value="a">a. Richtig<br>
+                    <input type="radio" name="frage4" id="f4b" value="b">b. Falsch<br>
+                    <br>
+                    <input type="submit" value="Antwort abschicken">
+                </form>
+           </section>
+           <footer>
+               <a href="#">Impressum</a>
+           </footer>           
+        </div>
+
+    </body>
+</html>
